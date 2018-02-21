@@ -56,7 +56,22 @@ a:hover {
   border-radius: 30px;
   box-shadow: rgb(100,100,100);
 }
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #283E56;
+  padding: 15px;
+  opacity: 0.8;
+}
 
+#sidebar .fa {
+  font-size: 30px;
+  color: white;
+  padding: 15px;
+}
 .photos {
   width: 200px;
   margin: 20px;
@@ -93,3 +108,12 @@ a:hover {
     font-size: 30px;
 }
 
+
+
+#page-content {
+  margin-left: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
