@@ -1,0 +1,95 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+
+  background-image: url(images/mustang.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 100%;
+
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #970747;
+}
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+a {
+  color: #283E56;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  width: 500px;        /* Set the width */
+  margin: 50px auto;
+  text-align: center;
+  padding: 50px;
+  background-color: #FEF4E8;
+  border-radius: 30px;
+  box-shadow: rgb(100,100,100);
+}
+
+.photos {
+  width: 200px;
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-blue {
+    background-color: #1989AC;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.margin-top { margin-top: 35px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li i {
+    font-size: 30px;
+}
+
